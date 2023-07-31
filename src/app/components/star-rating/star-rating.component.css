@@ -1,0 +1,11 @@
+.star {
+  cursor: pointer;
+}
+
+.star:not(:last-child) {
+  margin-right: 5px;
+}
+
+.selected {
+  color: gold;
+}

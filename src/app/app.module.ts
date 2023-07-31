@@ -6,12 +6,16 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { HomeComponent } from './components/home/home.component';
 import { HttpClientModule } from '@angular/common/http';
+import { StarRatingComponent } from './components/star-rating/star-rating.component';
+import { LikeMealComponent } from './components/like-meal/like-meal.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    HomeComponent
+    HomeComponent,
+    StarRatingComponent,
+    LikeMealComponent
   ],
   imports: [
     BrowserModule,
