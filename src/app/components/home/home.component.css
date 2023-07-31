@@ -1,0 +1,105 @@
+/*mat-spinner {*/
+/*  margin: auto;*/
+/*  margin-top: 20%;*/
+/*}*/
+
+/*.list-container {*/
+/*  #margin: auto;*/
+/*  margin-top: 30px;*/
+/*  width: 80%;*/
+/*  display: flex;*/
+/*  justify-content: space-between;*/
+/*}*/
+
+/*.polaroid {*/
+/*  margin: auto;*/
+/*  margin-left: 20px;*/
+/*  width: 200px;*/
+/*  background-color: white;*/
+/*  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+/*}*/
+
+/*img {*/
+/*  width: 100%;*/
+/*}*/
+
+/*.container {*/
+/*  text-align: center;*/
+/*  padding: 5px 10px 3px;*/
+/*}*/
+
+/*h2 {*/
+/*  overflow: hidden;*/
+/*  white-space: nowrap;*/
+/*  text-overflow: ellipsis;*/
+/*}*/
+
+/*.dialog-actions {*/
+/*  display: flex;*/
+/*  justify-content: center;*/
+/*}*/
+
+/*div {*/
+/*  margin: 10px;*/
+/*}*/
+
+/*.first {*/
+/*  width: 25%;*/
+/*  display: inline-block;*/
+/*  background-color: green;*/
+/*}*/
+
+
+
+.gallery-title
+{
+  font-size: 36px;
+  color: #42B32F;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 70px;
+}
+.gallery-title:after {
+  content: "";
+  position: absolute;
+  width: 7.5%;
+  left: 46.5%;
+  height: 45px;
+  border-bottom: 1px solid #5e5e5e;
+}
+.filter-button
+{
+  font-size: 18px;
+  border: 1px solid #42B32F;
+  border-radius: 5px;
+  text-align: center;
+  color: #42B32F;
+  margin-bottom: 30px;
+
+}
+.filter-button:hover
+{
+  font-size: 18px;
+  border: 1px solid #42B32F;
+  border-radius: 5px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #42B32F;
+
+}
+.btn-default:active .filter-button:active
+{
+  background-color: #42B32F;
+  color: white;
+}
+
+.port-image
+{
+  width: 100%;
+}
+
+.gallery_product
+{
+  margin-bottom: 30px;
+}
+

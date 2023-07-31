@@ -1,0 +1,23 @@
+<div class="container">
+  <div class="row">
+    <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <h1 class="gallery-title">Meals</h1>
+    </div>
+    <div *ngFor="let meal of meals" class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter">
+
+      <img [src]="meal.strMealThumb" [alt]="meal.strMealThumb" class="img-responsive">
+      {{meal.strMeal}}
+
+      <div class="dialog-actions">
+        <button
+          color="primary"
+          [routerLink]="['/home/details']"
+          [queryParams]="{ id: meal.idMeal }"
+        >
+          More Details
+        </button>
+      </div>
+
+    </div>
+  </div>
+</div>
